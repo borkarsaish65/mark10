@@ -1,0 +1,192 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+
+    .application{
+        background: #9494ea;
+        color:white;
+        max-width: 40%;
+        margin: 0 auto;
+        height: 100%;
+        border:2px solid purple;
+    }
+
+body {
+    text-align: center;
+}
+input {
+    height: 5%;
+    width: 70%;
+}
+.inputDiv,button{
+
+margin-top: 10%;
+
+}
+.body {
+    margin-top: 20%;
+}
+button {
+    padding:15px;
+   background: #d6d6ff;
+   color:#9494ea;
+   border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 100px;
+}
+td, th {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+table {
+
+}
+.noteCollector > table {
+margin:  0 auto;
+}
+.errorMessage {
+   
+    color:red;
+}
+
+
+
+</style>
+<body>
+    
+        <div class="Application">
+              <div class="header">
+
+                  <h1>Cash Register Application</h1>
+
+                  <p>get minimum number of notes possible.</p>
+
+              </div>
+              <div class="body">
+              <div style='color: #c728d2;' id="errorMessage">
+
+              </div>
+              <div class='inputDiv'>
+
+                  <p for="bill_amount">Bill Amount</p>
+                  <span style='display: none;color: #c728d2;font-size: 20px;' class='bill_amount_error'>Please enter only numbers</span>
+                  <input id='bill_amount' placeholder="bill amount" type="text">
+
+    
+              </div>
+              <div class='inputDiv'>
+                  <p for="bill_amount">Cash Amount</p>
+                  <span style='display: none;color: #c728d2;font-size: 20px;' class='cash_amount_error'>Please enter only numbers</span>
+                  <input id='cash_amount' placeholder="Enter Cash" type="text" disabled>
+
+              </div>
+
+
+              <button id='check'>
+                  Check 
+              </button>
+
+
+
+              </div>
+
+
+              <div id="result">
+
+                  <div class="noteCollector">
+         
+                  
+                    <table>
+                       <tr>
+                            <th>
+                                2000
+                            </th>
+                            <th>
+                                500
+                            </th>
+                            <th>
+                                100
+                            </th>
+                            <th>
+                                50
+                            </th>
+                            <th>
+                                20
+                            </th>
+                            <th>
+                                10
+                            </th>
+                            <th>
+                                5
+                            </th>
+                            <th>
+                                1
+                            </th>
+                       </tr>
+                       <tr id='finalResult'>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>
+                                0
+                            </td>
+
+                       </tr>
+                        
+                    </table>
+
+
+                  </div>
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

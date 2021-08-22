@@ -1,0 +1,70 @@
+
+
+@media screen and (max-width: 768px)
+{
+
+    .application{
+        background: #9494ea;
+        color:white;
+        max-width: 70%;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+
+
+
+}
+@media screen and (max-width: 480px)
+{
+
+    .application{
+        background: #9494ea;
+        color:white;
+        max-width: 90%;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+body {
+    text-align: center;
+}
+input {
+    height: 5%;
+    width: 70%;
+}
+.inputDiv,button{
+
+margin-top: 10%;
+
+}
+.body {
+    margin-top: 20%;
+}
+button {
+    padding:15px;
+   background: #d6d6ff;
+   color:#9494ea;
+}
+
+#result {
+    margin-top: 100px;
+}
+td, th {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+table {
+
+}
+.noteCollector > table {
+margin:  0 auto;
+}
+.errorMessage {
+   
+    color:red;
+}
+
+
+
+}

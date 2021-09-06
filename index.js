@@ -149,7 +149,3 @@ console.log(HTMLresult)
 document.getElementById('finalResult').innerHTML = HTMLresult.join('');
 
 })
-
-
-
-//added a new comment 

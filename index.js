@@ -147,8 +147,7 @@ var HTMLresult = notes.map((noteCollection)=>{
 console.log(HTMLresult)
 
 document.getElementById('finalResult').innerHTML = HTMLresult.join('');
-
-});
-
-
+  
 //this is a temporary change made for neog camp interview
+})
+
